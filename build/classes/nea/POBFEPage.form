@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="William Perkin Monitoring System"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[480, 80]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="YesLB" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Component id="NoLB" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="CoveredN" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="HandwritingNeatN" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="UnderlinedN" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="SheetsNeatN" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="CorrectPenN" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="514" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="UnderlinedLB" min="-2" max="-2" attributes="0"/>
+                                  <Component id="HandwritingNeatLB" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SheetsNeatLB" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorrectPenLB" min="-2" max="-2" attributes="0"/>
+                                  <Component id="POBFECommentsLB" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CoveredLB" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="POBFECommentsField" min="-2" pref="490" max="-2" attributes="0"/>
+                                  <Component id="CoveredY" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="HandwritingNeatY" min="-2" max="-2" attributes="0"/>
+                                  <Component id="UnderlinedY" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SheetsNeatY" min="-2" max="-2" attributes="0"/>
+                                  <Component id="CorrectPenY" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="298" max="-2" attributes="0"/>
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="94" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="516" max="-2" attributes="0"/>
+              <Component id="ContinueButton" min="-2" pref="304" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="YesLB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="NoLB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="CoveredLB" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="CoveredY" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="CoveredN" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="HandwritingNeatLB" min="-2" max="-2" attributes="0"/>
+                      <Component id="HandwritingNeatY" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="HandwritingNeatN" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="UnderlinedLB" min="-2" max="-2" attributes="0"/>
+                  <Component id="UnderlinedY" min="-2" max="-2" attributes="0"/>
+                  <Component id="UnderlinedN" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="SheetsNeatLB" min="-2" max="-2" attributes="0"/>
+                      <Component id="SheetsNeatY" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="SheetsNeatN" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="CorrectPenLB" min="-2" max="-2" attributes="0"/>
+                  <Component id="CorrectPenY" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="CorrectPenN" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="POBFECommentsLB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="POBFECommentsField" alignment="3" min="-2" pref="137" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="135" max="32767" attributes="0"/>
+              <Component id="ContinueButton" min="-2" pref="188" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="36" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Fill in the Data for Personal Organisation: Book/Folder Etiquette"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CoveredLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Books are Covered"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="YesLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Yes"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="NoLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="No"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HandwritingNeatLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Students make an effort to keep handwriting neat and legible"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="UnderlinedLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Students underline all dates and titles and record LOs"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SheetsNeatLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sheets are stuck in neatly with no loose papers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CorrectPenLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Students use the correct pen (blue/black for work, red for underlining, green for assessment)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="POBFECommentsLB">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Additional Comments"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="POBFECommentsField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="POBFECommentsFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ContinueButton">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Continue"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ContinueButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="CoveredY">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="CoveredN">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="HandwritingNeatY">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="HandwritingNeatN">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="UnderlinedY">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="UnderlinedN">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="SheetsNeatY">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="SheetsNeatN">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="CorrectPenY">
+    </Component>
+    <Component class="javax.swing.JRadioButton" name="CorrectPenN">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
